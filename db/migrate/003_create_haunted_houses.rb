@@ -6,8 +6,10 @@ class CreateHauntedHouses
       t.string :location
       t.string :theme
       t.float :price
-      t.timestamp :opening_time
-      t.timestamp :closing_time
+      t.boolean :family?
+      t.timestamp :opening_date
+      t.timestamp :closing_date
+      t.string :description
     end
   end
 end
