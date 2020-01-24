@@ -4,8 +4,8 @@ class CreateHauntedHouses
     create_table :haunted_houses do |t|
       t.string :name
       t.string :location
-      t.integer :number_of_costumes
-      t.integer :number_of_employees
+      t.string :theme
+      t.float :price
       t.timestamp :opening_time
       t.timestamp :closing_time
     end
