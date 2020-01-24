@@ -6,6 +6,7 @@ class CreateCostumeStores
       t.string :location
       t.integer :number_of_costumes
       t.integer :number_of_employees
+      t.boolean :in_business?
       t.timestamp :opening_time
       t.timestamp :closing_time
     end
